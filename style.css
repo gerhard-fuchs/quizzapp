@@ -1,0 +1,45 @@
+body {
+    background-color: #9EF9E0 !important;
+}
+
+.container {
+    height: 100vh !important;
+    background-color: #9EF9E0 !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardFooter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.4);
+    padding: 12px 0 0 0;
+}
+
+.quiz-card {
+    width: 30rem;
+}
+
+.answer-body {
+    padding: 12px !important;
+}
+
+.answer-body:hover {
+    padding: 12px !important;
+    cursor: pointer;
+    background-color: #c9d1d9;
+}
+
+.true {
+    background-color: green !important;
+}
+
+.red {
+    background-color: red !important;
+} 
+
+.text-align-center {
+    text-align: center;
+}
